@@ -21,6 +21,16 @@ public class Person {
         return "Person [personId=" + personId + ", name=" + name + ", age=" + age + ", gender=" + gender + ", hobbies="
                 + hobbies + "]";
     }
+    
+
+    public Person(String personId, String name, long age, String gender, List<String> hobbies) {
+        this.personId = personId;
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.hobbies = hobbies;
+    }
+
 
     public String getPersonId() {
         return personId;
